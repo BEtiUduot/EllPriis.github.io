@@ -1,0 +1,742 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hero{
+    width: 100%;
+    height: 720px;
+    background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.575)), url(/IMAGES/T\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.navbar{
+    display: flex;
+}
+.logo img{
+    max-width: 250px;
+    margin-top: 7%;
+    cursor: pointer;
+    margin-left: 20%;
+}
+.navbar-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.5%;
+    margin-left: 26%;
+}
+.navbar-items a{
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.login{
+    margin-top: 3.5%;
+    margin-left: 22.5%;
+}
+.login a{
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+.button{
+    margin-top: 2.8%;
+    margin-left: 2%;
+}
+.button button{
+    padding-top: 15%;
+    font-size: 18px;
+    padding-bottom: 15%;
+    width: 180%;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #146669;
+}
+.heading{
+    margin-top: 24%;
+    margin-left: 4.5%;
+}
+.heading h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+}
+.heading p{
+    color: white;
+    font-size: 20px;
+    margin-left: 0.22%;
+    margin-top: 0.5%;
+}
+.hbutton{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 0.24%;
+}
+.secbtn{
+    margin-left: 5.5%;
+}
+.frstbtn button{
+    width: 250%;
+    font-size: 17.5px;
+    padding-top: 23.5%;
+    padding-bottom: 23.5%;
+    cursor: pointer;
+    background-color: transparent;
+    border-width: 2.2px;
+    color: white;
+    border-style:groove;
+    border-color: white;
+}
+.secbtn button{
+    width: 140%;
+    font-size: 17px;
+    padding-top: 14.5%;
+    padding-bottom: 14.5%;
+    background-color: #146669;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#secpart{
+    background-color: #ffffff;
+    height: 1020px;
+    width: 100%;
+}
+.ittems{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.frstitem{
+    padding-top: 14%;
+    padding-bottom: 11%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #22b1b6;
+}
+.secitem{
+    padding-top: 14%;
+    padding-bottom: 11%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #0da0a5;
+}
+.thirditem{
+    padding-top: 14%;
+    padding-bottom: 11%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #1a7f83;
+}
+.fourthitem{
+    padding-top: 14%;
+    padding-bottom: 11%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #146669;
+}
+.ittems .columns{
+    text-align: center;
+    width: 400%;
+}
+.cards{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    margin-left: 2%;
+    padding-bottom: 5%;
+}
+.cards img{
+    max-width: 45%;
+}
+.txt{
+    background-color: white;
+    width: 35%;
+}
+.txt .contents{
+    margin-left: 12%;
+    margin-top: 30%;
+}
+.contents h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.contents p{
+    font-size: 20px;
+    margin-top: 5%;
+    width: 95%;
+}
+.secp{
+    margin-top: -2.5%;
+}
+.contents button{
+    margin-top: 15%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #146669;
+    border: none;
+    color: white;
+    width: 35%;
+}
+#thrdsec{
+    width: 100%;
+    height: 1200px;
+    background-color: #146669;
+}
+.frstitem i{
+    font-size: 50px;
+}
+.secitem i{
+    font-size: 50px;
+}
+.thirditem i{
+    font-size: 50px;
+}
+.fourthitem i{
+    font-size: 50px;
+}
+.frstitem h3{
+    margin-top: 5%;
+}
+.secitem h3{
+    margin-top: 5%;
+}
+.thirditem h3{
+    margin-top: 5%;
+}
+.fourthitem h3{
+    margin-top: 5%;
+}
+button i{
+    margin-left: 5%;
+}
+.secheading img{
+    margin-top: 6%;
+    max-width: 90%;
+    margin-left: 5%;
+}
+.secheading h1{
+    color: white;
+    margin-top: 3%;
+    font-size: 45px;
+    margin-left: 6.5%;
+}
+.seccont p{
+    font-size: 19px;
+    margin-top: 3.5%;
+    color: white;
+    width: 35%;
+    margin-left: 15.5%;
+    text-align:justify;
+}
+.seccont{
+    display: flex;
+}
+.secontain{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    column-gap: 10%;
+}
+.box1{
+    color: white;
+    text-align: center;
+}
+.box1 h1{
+    font-size: 100px
+}
+.box1 p{
+    font-size: 18px
+}
+.box2{
+    color: white;
+    text-align: center;
+}
+.box2 h1{
+    font-size: 100px
+}
+.box2 p{
+    font-size: 18px
+}
+.box3{
+    color: white;
+    text-align: center;
+}
+.box3 h1{
+    font-size: 100px
+}
+.box3 p{
+    font-size: 18px
+}
+.box4{
+    color: white;
+    text-align: center;
+}
+.box4 h1{
+    font-size: 100px
+}
+.box4 p{
+    font-size: 18px
+}
+#fourthsec{
+    height: 750px;
+    width: 100%;
+}
+.frthhead h1{
+    padding-top: 4%;
+    font-size: 40px;
+    margin-left: 5.5%;
+}
+.frthhead p{
+    font-size: 19px;
+    padding-top: 0.3%;
+    margin-left: 5.5%;
+}
+.frthcont{
+    display: flex;
+    margin-top: 2.2%;
+    text-align: center;
+}
+.cards1img img{
+    max-width: 85%;
+    margin-left: 15%;
+}
+.cards2img img{
+    max-width: 85%;
+}
+.cards3img img{
+    max-width: 85%;
+    margin-right: 15%;
+}
+.cards1cont{
+    padding-top: 3%;
+    text-align: left;
+    width: 85%;
+    margin-left: 15%;
+}
+.cards1cont p{
+    font-size: 17px;
+    padding-top: 3%;
+}
+.cards2cont{
+    padding-top: 3%;
+    text-align: left;
+    width: 85%;
+    margin-left: 8%;
+}
+.cards2cont p{
+    font-size: 17px;
+    padding-top: 3%;
+}
+.cards3cont{
+    padding-top: 3%;
+    text-align: left;
+    width: 85%;
+    margin-left: 1%;
+}
+.cards3cont p{
+    font-size: 17px;
+    padding-top: 3%;
+}
+#fifthsec{
+    width: 100%;
+    height: 1160px;
+}
+.fifthhead{
+    padding-top: 0%;
+    margin-left: 5.5%;
+}
+.fifthhead h1{
+    font-size: 40px;
+}
+.fifthhead p{
+    padding-top: 0.3%;
+    font-size: 19px;
+}
+.grdcont{
+    display: grid;
+    padding-top: 2.5%;
+    margin-left: 5%;
+    grid-column-gap: -20% ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 94%;
+    overflow-x: hidden;
+}
+.card1img img{
+    max-width: 87%;
+    cursor: pointer;
+}
+.card2img img{
+    max-width: 89%;
+    cursor: pointer;
+}
+.card3img img{
+    cursor: pointer;
+    max-width: 89%;
+}
+.grdcard1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grdcard2{
+    margin-left: -20%;
+}
+.grdcard3{
+    margin-top: -1.4%;
+    margin-left: -20%;
+}
+.card1cont h2{
+    cursor: pointer;
+    padding-top: 4%;
+    font-size: 30px;
+}
+.card1cont p{
+    padding-top: 1%;
+    font-size: 17px;
+    width: 85%;
+    text-align: left;
+}
+.card2cont{
+    margin-left: 1%;
+}
+.card2cont h2{
+    cursor: pointer;
+    padding-top: 4%;
+    font-size: 24px;
+    width: 300%
+}
+.card2cont p{
+    padding-top: 1.5%;
+    margin-left: 0.2%;
+    width: 87%;
+    font-size: 16px;
+    text-align: justify;
+}
+.card3cont{
+    margin-left: 1%;
+}
+.card3cont h2{
+    cursor: pointer;
+    padding-top: 4%;
+    font-size: 24.5px;
+    width: 300%
+}
+.card3cont p{
+    padding-top: 1.5%;
+    margin-left: 0.2%;
+    width: 87%;
+    font-size: 16px;
+    text-align: justify;
+}
+#cta{
+    background-color: #146669;
+    margin-top: 1.5%;
+    height: 576px;
+}
+.ctacont{
+    display: flex;
+}
+.ctaimg img{
+    max-width: 105%;
+    margin-left: -5%;
+}
+.ctacontents{
+    padding-top: 8.5%;
+    margin-left: 8%;
+}
+.ctacontents h1{
+    font-size: 48px;
+    color: white;
+}
+.ctacontents p{
+    width: 75%;
+    font-size: 18px;
+    padding-top: 6%;
+    color: white;
+    text-align: justify;
+}
+.secpg p{
+    margin-top: -4%;
+}
+.ctabtn{
+    display: flex;
+    padding-top: 7.5%;
+}
+.login2 button{
+    cursor: pointer;
+    padding-top: 12px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    width: 140px;
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 12px;
+}
+.getstrted button{
+    cursor: pointer;
+    margin-left: 4%;
+    padding-top: 12.5px;
+    width: 170px;
+    color: #146669;
+    font-size: 18px;
+    padding-bottom: 12.5px;
+}
+#newsletter{
+    height: 305px;
+}
+.newsltcont{
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.newsltheading h1{
+    font-size: 36px;
+    margin-left: 25%;
+    width: 100%;
+}
+.newsltheading p{
+    padding-top: 3%;
+    font-size: 18px;
+    margin-left: 25%;
+    width: 100%;
+}
+.form{
+    width: 40%;
+    text-align: left;
+    margin-right: 3.5%;
+    margin-top: 2.5%;
+}
+.form input[type=email]{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 18px;
+    width: 70%;
+}
+.form input[type=button]{
+    padding-top: 13px;
+    cursor: pointer;
+    padding-bottom: 13px;
+    font-size: 18px;
+    color: white;
+    background-color: #000000;
+    width: 20%;
+}
+#footer{
+    background-color:#146669 ;
+    height: 430px;
+}
+.footercont{
+    display: flex;
+}
+.logoimg{
+    margin-top: 10%;
+    margin-left: 22.5%;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 23.5%;
+    column-gap: 30%;
+    width: 28%;
+}
+.frstlink{
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+}
+.frstlink a{
+    text-decoration: none;
+    color: white;
+    width: 200%;
+    padding-top: 17%;
+    font-size: 16px;
+}
+.frstlink p{
+    width: 200%;
+    margin-bottom: 10%;
+    font-size: 19px;
+    color: aqua;
+    font-weight: bold;
+}
+.seclink{
+    display: flex;
+    flex-direction: column;
+}
+.seclink p{
+    width: 200%;
+    margin-bottom: 13%;
+    font-size: 19px;
+    color: aqua;
+    font-weight: bold;
+}
+.seclink a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    width: 200%;
+    padding-top: 18%;
+}
+.thirdlink{
+    display: flex;
+    flex-direction: column;
+}
+.thirdlink a{
+    text-decoration: none;
+    color: white;
+    width: 200%;
+    padding-top: 14%;
+    font-size: 16px;
+}
+.thirdlink p{
+    width: 200%;
+    margin-bottom: 6%;
+    font-size: 19px;
+    color: aqua;
+    font-weight: bold;
+}
+.footericons{
+    margin-left: 43%;
+    width: 100%;
+    padding-top: 20%;
+}
+.footericons i{
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 1.5%;
+}
+.vertical{
+    display: flex;
+}
+.vl{
+    height: 400px;
+    border-left: 70px solid #146669;
+    margin-top: -23%;
+}
+.vll2{
+    height: 200px;
+    border-left: 70px solid #146669;
+    margin-top: -56.5%;
+    margin-left: 90.65%;
+}
+.vl3{
+    height: 5px;
+    border-left: 749.95px solid #146669;
+    margin-left: 50%;
+    margin-top: -3.7%;
+    margin-bottom: 6%;
+}
+.sec1btn{
+    padding-top: 7%;
+    display: flex;
+}
+.frst1btn button{
+    padding-top: 12%;
+    cursor: pointer;
+    padding-bottom: 12%;
+    background-color: transparent;
+    border-color:#000000;
+    border-style: solid;
+    font-size: 15px;
+    border-width: 2px;
+    width: 150%;
+}
+.frst2btn button{
+    margin-left: 70%;
+    padding-top: 14.5%;
+    padding-bottom: 14.5%;
+    font-size: 15px;
+    border-color:#000000;
+    cursor: pointer;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    width: 200%;
+}
+.sec2btn{
+    display: flex;
+    padding-top: 7%;
+}
+.frst1btn2 button{
+    padding-top: 12%;
+    padding-bottom: 12%;
+    background-color: transparent;
+    cursor: pointer;
+    border-color:#000000;
+    border-style: solid;
+    font-size: 15px;
+    border-width: 2px;
+    width: 150%;
+}
+.frst2btn2 button{
+    margin-left: 70%;
+    padding-top: 14.5%;
+    padding-bottom: 14.5%;
+    font-size: 15px;
+    border-color:#000000;
+    cursor: pointer;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    width: 200%;
+}
+.sec3btn{
+    display: flex;
+    padding-top: 7%;
+}
+.frst1btn3 button{
+    padding-top: 12%;
+    padding-bottom: 12%;
+    cursor: pointer;
+    background-color: transparent;
+    border-color:#000000;
+    border-style: solid;
+    font-size: 15px;
+    border-width: 2px;
+    width: 150%;
+}
+.frst2btn3 button{
+    margin-left: 70%;
+    padding-top: 14.5%;
+    padding-bottom: 14.5%;
+    font-size: 15px;
+    border-color:#000000;
+    cursor: pointer;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    width: 200%;
+}
+.imgicon{
+    width: 30%;
+}
+.imgicon p{
+    width: 90%;
+    margin-left: 45% ;
+    font-size: 17px;
+    line-height: 1.3;
+    text-align: left;
+    color: white;
+}
+.footercont{
+    padding-top: 1%;
+}
+.lastcnt p{
+    color: white;
+    margin-top: -1.8%;
+    margin-left: 72.5%;
+}
